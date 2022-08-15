@@ -17,6 +17,9 @@ button.addEventListener('click', changeColor);
 
 rangeSpan.textContent = '50%';
 
+circle.style.height = '50%';
+circle.style.width = '50%';
+
 const changeParams = function (event) {
     rangeSpan.textContent = event.target.value + '%';
     circle.style.height = `${rangeSpan.textContent}`;
